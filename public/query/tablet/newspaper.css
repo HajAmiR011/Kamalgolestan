@@ -1,0 +1,7 @@
+.newspaper {
+  .wrapper {
+    padding: 70px 0;
+    flex-direction: row;
+    gap: 10px;
+  }
+}

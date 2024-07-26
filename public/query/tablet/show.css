@@ -1,0 +1,35 @@
+.show {
+  margin: 7rem 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1920px;
+  .show_center {
+    width: 780px;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 20px;
+    div {
+      width: 170px;
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+      justify-content: center;
+      img{
+        width: 100%;
+        object-fit: cover;
+      }
+      span {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+        font-family: var(--fonts);
+        color: rgb(172, 171, 171);
+      }
+    }
+  }
+}

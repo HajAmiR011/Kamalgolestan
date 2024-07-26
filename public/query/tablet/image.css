@@ -1,0 +1,14 @@
+.image {
+  margin-bottom: 20px;
+  img {
+    height: 500px;
+  }
+  .image_introduce {
+    width: 300px;
+    bottom: 0;
+    left: 55%;
+  }
+  .line{
+    display: block !important;
+  }
+}

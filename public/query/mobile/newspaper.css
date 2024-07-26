@@ -1,0 +1,94 @@
+.newspaper {
+  width: 100%;
+  height: fit-content;
+  max-width: 1920px;
+  .title {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    span {
+      color: red;
+      font-family: var(--fonts);
+      margin-right: 30px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .wrapper {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    background-color: #cde4b0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    .display{
+      display: none !important;
+    }
+    .pro {
+      width: 320px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid lightgray;
+      box-shadow: -3px 3px 7px 0px rgba(0, 0, 0, 0.2);
+      a {
+        width: 100%;
+        height: 310px;
+        img {
+          width: inherit;
+          height: inherit;
+          object-fit: cover;
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+      .pro_content {
+        width: 100%;
+        height: 100%;
+        padding: 30px 20px;
+        background-color: white;
+        span {
+          display: block;
+          color: red;
+          font-family: var(--fonts);
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-family: var(--fonts);
+          color: rgb(172, 171, 171);
+          font-size: 14px;
+          font-weight: 100;
+          line-height: 25px;
+          text-align: justify;
+          margin-bottom: 50px;
+        }
+        .more {
+          width: 100px;
+          height: 40px;
+          font-family: var(--fonts);
+          font-size: 14px;
+          border-radius: 7px;
+          color: rgb(158, 158, 158);
+          border: 1px solid rgb(189, 189, 189);
+          display: inline-block;
+          text-align: center;
+          line-height: 40px;
+          transition: 300ms;
+          background-color: white;
+          &:hover {
+            cursor: pointer;
+            background-color: red;
+            color: white;
+            border: 1px solid red;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.newspaper {
+  .wrapper {
+    .display{
+      display: flex !important;
+    }
+  }
+}

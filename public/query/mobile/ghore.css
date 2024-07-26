@@ -1,0 +1,65 @@
+.ghore {
+  width: 100%;
+  height: auto;
+  background-color: #e2e2e2;
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 1920px;
+  .ghore_right {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+    align-items: center;
+    .content {
+      padding-right: 40px;
+      padding-left: 15px;
+      width: 100%;
+      height: auto;
+      h2 {
+        color: red;
+        font-family: var(--fonts);
+        margin-bottom: 10px;
+      }
+      h3 {
+        color: gray;
+        font-family: var(--fonts);
+        margin-bottom: 25px;
+      }
+      p {
+        color: rgb(172, 171, 171);
+        font-family: var(--fonts);
+        margin-bottom: 50px;
+        text-align: justify;
+      }
+      .more {
+        width: 130px;
+        height: 40px;
+        font-family: var(--fonts);
+        font-size: 14px;
+        border-radius: 7px;
+        color: rgb(158, 158, 158);
+        border: 1px solid rgb(189, 189, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 300ms;
+        background-color: white;
+        &:hover {
+          cursor: pointer;
+          background-color: red;
+          color: white;
+          border: 1px solid red;
+        }
+      }
+    }
+  }
+  .ghore_left {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    padding-right: 80px;
+    justify-content: flex-start;
+  }
+}

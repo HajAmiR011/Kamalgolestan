@@ -1,0 +1,30 @@
+.product {
+  height: auto;
+  padding: 30px;
+  flex-direction: row-reverse;
+  padding: 50px;
+  max-width: 1920px;
+  .img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    align-items: center;
+    .mobile{
+        display: none !important;
+    }
+    .tablet{
+        display: block !important;
+    }
+  }
+  .content {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+     max-width: 300px;
+    flex-direction: column;
+  }
+}

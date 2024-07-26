@@ -1,0 +1,42 @@
+header {
+  height: 100px;
+  flex-flow: row wrap;
+  .header_logo {
+    width: 27%;
+    height: inherit;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+  .header_menu {
+    width: 73%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    .hambergerMenu {
+      width: 100%;
+      height: inherit;
+      justify-content: flex-start;
+      nav {
+        width: fit-content;
+        margin-right: 8px;
+        div {
+          height: fit-content;
+          .menu_strip {
+            width: 14vw;
+            top: 33px;
+            div {
+              padding-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    .pipe {
+      width: 1px;
+      height: 20px;
+      background-color: rgba(211, 211, 211, 0.486);
+      display: inline-block !important;
+    }
+  }
+}

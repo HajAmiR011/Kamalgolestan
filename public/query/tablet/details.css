@@ -1,0 +1,8 @@
+.pro-details {
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 15px;
+  .details {
+    width: 400px;
+  }
+}

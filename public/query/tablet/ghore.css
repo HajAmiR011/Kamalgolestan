@@ -1,0 +1,20 @@
+.ghore {
+  height: 400px;
+  flex-flow: row wrap;
+  .ghore_right {
+    width: 55%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+      padding: 0;
+      margin-top: 35px;
+      width: 320px;
+    }
+  }
+  .ghore_left {
+    width: 45%;
+    display: block;
+  }
+}

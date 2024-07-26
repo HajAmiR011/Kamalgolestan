@@ -1,0 +1,22 @@
+.introduce {
+  .introduce_center {
+    width: 680px;
+    height: auto;
+    padding: 0;
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 40px;
+    }
+  }
+}
+.line-1,
+.line-2,
+.line-3,
+.show {
+  display: flex !important;
+}
+.margin_p {
+  margin-bottom: 0 !important;
+}
