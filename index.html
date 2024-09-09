@@ -364,6 +364,23 @@
     <!-- footer -->
   </div>
   <!-- container -->
+  <script>
+    let inputs = document.querySelectorAll("input[type='checkbox']")
+    let input = [...inputs];
+    function resize() {
+      input.map((elem) => {
+        if (window.matchMedia("(min-width: 768px)").matches) {
+          elem.setAttribute("disabled", "true")
+        } else {
+          elem.removeAttribute("disabled")
+        }
+      })
+    }
+    window.addEventListener("resize", () => {
+      resize()
+    })
+    resize()
+  </script>
 </body>
 
 </html>
