@@ -1,0 +1,12 @@
+h1 {
+  width: 80%;
+  max-width: 926px;
+  padding: 0;
+}
+.web {
+  .web-products {
+    max-width: 940px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 600px);
+  }
+}

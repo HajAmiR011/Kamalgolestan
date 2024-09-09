@@ -1,0 +1,8 @@
+.web {
+  .web-products {
+    padding: 100px 0 0 0;
+    max-width: 625px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, 600px);
+  }
+}
